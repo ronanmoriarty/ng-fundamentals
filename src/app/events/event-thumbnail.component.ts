@@ -14,7 +14,10 @@ import { Component, Input, Output, EventEmitter } from "@angular/core";
         </div>
     </div>`,
     styles: [
-        '.pad-left { padding-left: 10px; }'
+        `
+        .pad-left { padding-left: 10px; }
+        .well div { color: #bbb; }
+        `
     ]
 })
 export class EventThumbnailComponent {
